@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parnamika Ahuja — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',system-ui,sans-serif;background:#e9e9e7;color:#1b2333;font-size:10.5pt;line-height:1.5}
+.sheet{max-width:800px;margin:0 auto;background:#fff;padding:2.6rem 3rem}
+
+.bar{position:fixed;top:1rem;right:1.2rem;display:flex;gap:.5rem}
+.btn{background:#1b2333;color:#fff;border:none;padding:.55rem 1.15rem;border-radius:100px;
+  font-family:inherit;font-size:.72rem;font-weight:500;letter-spacing:.06em;cursor:pointer;text-decoration:none;transition:background .2s}
+.btn:hover{background:#3f5b8b}
+@media print{
+  .bar{display:none}
+  body{font-size:9.3pt;background:#fff}
+  .sheet{padding:0;max-width:100%}
+  .cv-row,.edu-row{page-break-inside:avoid}
+}
+
+.cv-head{display:flex;justify-content:space-between;align-items:flex-start;
+  padding-bottom:1rem;border-bottom:1.5px solid #1b2333;margin-bottom:1rem}
+.cv-name{font-size:2rem;font-weight:300;letter-spacing:-.03em;line-height:1}
+.cv-name em{font-style:italic;color:#3f5b8b}
+.cv-role{font-size:.7rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:#3f5b8b;margin-top:.35rem}
+.cv-contacts{text-align:right;display:flex;flex-direction:column;gap:.2rem}
+.cv-contacts a{font-size:.74rem;color:#3f5b8b;text-decoration:none}
+
+.summary{font-size:.82rem;font-weight:300;line-height:1.65;color:#41464f;margin-bottom:1.4rem}
+
+.cv-sec{margin-bottom:1.35rem}
+.cv-sec-title{font-size:.57rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#3f5b8b;
+  border-bottom:1px solid #e2e2e0;padding-bottom:.28rem;margin-bottom:.8rem}
+
+.cv-row{display:grid;grid-template-columns:1fr auto;gap:1rem;margin-bottom:.8rem}
+.cv-row:last-child{margin-bottom:0}
+.cv-title{font-size:.89rem;font-weight:500}
+.cv-org{font-size:.76rem;color:#6b7280;margin-top:.05rem}
+.cv-date{font-size:.7rem;color:#9ca3af;white-space:nowrap;padding-top:.12rem}
+.cv-pts{list-style:none;margin-top:.28rem}
+.cv-pts li{font-size:.76rem;color:#41464f;line-height:1.5;padding-left:.75rem;position:relative;margin-bottom:.1rem}
+.cv-pts li::before{content:'·';position:absolute;left:0;color:#3f5b8b}
+
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem}
+.tags{display:flex;flex-wrap:wrap;gap:.28rem;margin-top:.4rem}
+.tg{font-size:.65rem;padding:.14rem .55rem;border-radius:100px;background:#eef1f6;color:#3f5b8b}
+.tg.alt{background:#f1f1ef;color:#6b7280}
+.skill-lbl{font-size:.62rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:#6b7280;margin-top:.6rem}
+
+.edu-row{margin-bottom:.6rem}
+.edu-deg{font-size:.86rem;font-weight:500}
+.edu-school{font-size:.75rem;color:#6b7280}
+.edu-date{font-size:.7rem;color:#9ca3af}
+.cert-list{list-style:none;display:flex;flex-direction:column;gap:.25rem}
+.cert-list li{font-size:.75rem;color:#41464f;padding-left:.75rem;position:relative}
+.cert-list li::before{content:'·';position:absolute;left:0;color:#3f5b8b}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <a class="btn" href="Parnamika-Ahuja-Resume.pdf" download>Download PDF ↓</a>
+  <button class="btn" onclick="window.print()">Print</button>
+</div>
+
+<div class="sheet">
+
+  <div class="cv-head">
+    <div>
+      <div class="cv-name">Parnamika <em>Ahuja</em></div>
+      <div class="cv-role">People &amp; Growth · Community · Program Coordination</div>
+    </div>
+    <div class="cv-contacts">
+      <a href="mailto:Riyaahuja182004@gmail.com">Riyaahuja182004@gmail.com</a>
+      <a href="https://linkedin.com/in/parnamikaahuja">linkedin.com/in/parnamikaahuja</a>
+      <a href="https://github.com/Riyaahuja181">github.com/Riyaahuja181</a>
+    </div>
+  </div>
+
+  <p class="summary">
+    Community and program coordinator with four years of running student communities, coordinating
+    multi-stakeholder programs, and supporting people one-on-one — across university faculties, a
+    Google Developer Group chapter, and an industry research centre. Comfortable owning the
+    unglamorous parts of community work: the scheduling, the follow-ups, the reporting, and the
+    person who needs checking in on.
+  </p>
+
+  <!-- PEOPLE, COMMUNITY & PROGRAMS -->
+  <div class="cv-sec">
+    <div class="cv-sec-title">People, Community &amp; Programs</div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Project Coordinator &amp; Research Assistant</div>
+        <div class="cv-org">Innovation Central Canberra</div>
+        <ul class="cv-pts">
+          <li>Coordinated a multi-partner research program — timelines, milestones, and delivery across academic and industry stakeholders.</li>
+          <li>Ran the communication layer between researchers and partners, keeping everyone briefed and the work on schedule.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Dec 2024 — Sep 2025</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Academic Skill Advisor</div>
+        <div class="cv-org">University of Canberra</div>
+        <ul class="cv-pts">
+          <li>One-on-one advising on study strategy, planning, and confidence for students across faculties.</li>
+          <li>Adapted support to each student's situation rather than running a script — repeat bookings were the norm.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Nov 2024 — Apr 2026</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Student Ambassador &amp; Equity Tutor</div>
+        <div class="cv-org">University of Canberra</div>
+        <ul class="cv-pts">
+          <li>Represented UC at recruitment, outreach, and community events — often the first person a prospective student spoke to.</li>
+          <li>Delivered equity tutoring for students who needed extra academic support to stay on track.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Jan 2025 — Present</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Head Teacher &amp; Facilitator</div>
+        <div class="cv-org">Code Camp</div>
+        <ul class="cv-pts">
+          <li>Led school-holiday programs end to end — managed a facilitator team, ran the room, and handled parent communication.</li>
+          <li>Adapted session structure and pacing to keep groups of young students engaged.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Jul 2024 — Sep 2025</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Creative Lead &amp; Secretary</div>
+        <div class="cv-org">GDG on Campus — ANU</div>
+        <ul class="cv-pts">
+          <li>Planned and promoted chapter events, building the campaigns that grew attendance and member engagement.</li>
+          <li>Owned chapter communications, meeting records, and the organisational side of a volunteer committee.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Aug 2024 — May 2025</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Undergraduate Student Representative</div>
+        <div class="cv-org">UC Faculty of Science &amp; Technology</div>
+        <ul class="cv-pts">
+          <li>Sat on faculty board alongside the Executive Dean, representing undergraduate students in academic governance.</li>
+          <li>Gathered and raised student feedback where curriculum and policy decisions were actually made.</li>
+        </ul>
+      </div>
+      <div class="cv-date">May 2024 — Mar 2025</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Student Fellow — Winter '24</div>
+        <div class="cv-org">Startmate</div>
+        <ul class="cv-pts">
+          <li>Selected for a competitive national student fellowship focused on growth, community, and building with intent.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Jun — Aug 2024</div>
+    </div>
+  </div>
+
+  <!-- TECHNICAL -->
+  <div class="cv-sec">
+    <div class="cv-sec-title">Technical Experience</div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Web Developer Intern</div>
+        <div class="cv-org">Innovation Central Canberra</div>
+        <ul class="cv-pts">
+          <li>Built a compliance automation platform for the CMMC and DISP frameworks — full-stack (C#, AWS EC2), shipped to real users.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Sep 2024 — Jan 2025</div>
+    </div>
+
+    <div class="cv-row">
+      <div>
+        <div class="cv-title">Deployment Technician</div>
+        <div class="cv-org">University of Canberra</div>
+        <ul class="cv-pts">
+          <li>Device deployment, imaging, and configuration at scale, plus front-line IT support for staff and students.</li>
+        </ul>
+      </div>
+      <div class="cv-date">Sep 2025 — Apr 2026</div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="cv-sec">
+    <div class="cv-sec-title">Skills</div>
+    <div class="skill-lbl">People &amp; Growth</div>
+    <div class="tags">
+      <span class="tg">Community Building</span>
+      <span class="tg">Program Coordination</span>
+      <span class="tg">Event Management</span>
+      <span class="tg">Stakeholder Communication</span>
+      <span class="tg">Mentoring &amp; Advising</span>
+      <span class="tg">Student Engagement</span>
+      <span class="tg">Outreach &amp; Recruitment</span>
+      <span class="tg">Public Speaking</span>
+      <span class="tg">Advocacy &amp; Representation</span>
+      <span class="tg">Team Leadership</span>
+    </div>
+    <div class="skill-lbl">Tools &amp; Technical</div>
+    <div class="tags">
+      <span class="tg alt">Google Workspace</span>
+      <span class="tg alt">Figma</span>
+      <span class="tg alt">Canva</span>
+      <span class="tg alt">Notion</span>
+      <span class="tg alt">Python</span>
+      <span class="tg alt">HTML / CSS / JS</span>
+      <span class="tg alt">C#</span>
+      <span class="tg alt">AWS</span>
+    </div>
+  </div>
+
+  <!-- EDUCATION & CERTS -->
+  <div class="two-col">
+    <div class="cv-sec">
+      <div class="cv-sec-title">Education</div>
+      <div class="edu-row">
+        <div class="edu-deg">B. Information Technology — Cybersecurity</div>
+        <div class="edu-school">University of Canberra</div>
+        <div class="edu-date">Feb 2023 — Present</div>
+      </div>
+      <div class="edu-row">
+        <div class="edu-deg">High School Diploma — PCM</div>
+        <div class="edu-school">St. Theresa's Convent Sr. Sec. School</div>
+        <div class="edu-date">Graduated 2021 · Miss THERESIAN 2021–22</div>
+      </div>
+    </div>
+
+    <div class="cv-sec">
+      <div class="cv-sec-title">Awards &amp; Certifications</div>
+      <ul class="cert-list">
+        <li>3rd Place — National Missing Persons Hackathon 2024</li>
+        <li>SAPathon Canberra 2024 — SAP BUILD Award</li>
+        <li>UC Employability &amp; Community Award</li>
+        <li>UC Global Employability Program</li>
+        <li>Cisco Network Engineering Certification</li>
+        <li>Cisco Cybersecurity Defense Certification</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
